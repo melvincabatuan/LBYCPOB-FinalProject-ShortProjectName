@@ -147,4 +147,4 @@ CORE FEATURES (Recommended):
 - [ ] Branching strategy agreed upon (`main` + feature branches)
 - [ ] Each member has made at least one initial commit under their own account
 
-**Reminder:** Since group contribution is assessed through GitHub activity, an incomplete or GitHub-inactive member will be graded **zero on the project**, even if the team submits a working application. Set up your workflow so that everyone's participation is visible from the start — not reconstructed at the deadline.
+**Reminder:** Since group contribution is assessed through GitHub activity, an incomplete or GitHub-inactive member will be graded **zero on the project**, even if the team submits a working application. Set up your workflow so that everyone's participation is visible from the start: not reconstructed at the deadline.
