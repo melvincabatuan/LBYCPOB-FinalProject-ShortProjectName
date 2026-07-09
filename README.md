@@ -167,7 +167,7 @@ Students share one domain model, one service layer, and one data-access layer, a
 | **Data Access** | Spring Data JPA | Spring Data JPA | Repositories, ORM |
 | **Database** | PostgreSQL | PostgreSQL | Data persistence |
 | **Configuration** | application.properties | application.properties | Spring Boot configuration |
-| **Build Tool** | Maven or Gradle | Maven or Gradle | Dependency and project management |
+| **Build Tool** | Maven | Maven | Dependency and project management |
 | **Testing** | JUnit 5 + Mockito | JUnit 5 + Mockito | Unit testing and mocking |
 
 ---
