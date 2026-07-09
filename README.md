@@ -160,7 +160,7 @@ CORE FEATURES (Recommended):
 Students share one domain model, one service layer, and one data-access layer, and they add only a track-specific presentation module. This keeps the codebase unified, lets students compare approaches, and mirrors how real engineering teams maintain one backend behind multiple client types.
 
 | Layer | Track A (Desktop) | Track B (Web) | Shared Concept |
-|-------|-------------------|---------------|----------------|
+|:-------:|:-------------------:|:---------------:|:----------------:|
 | **Presentation** | JavaFX + Scene Builder FXML | Thymeleaf + Bootstrap | MVC pattern |
 | **Backend / Controller** | JavaFX Controller classes | Spring MVC @Controller | Layered architecture |
 | **Business Logic** | Spring Boot Services | Spring Boot Services | OOP, SOLID, Dependency Injection |
@@ -175,7 +175,7 @@ Students share one domain model, one service layer, and one data-access layer, a
 ## Markdown (.md) Quick Reference
 
 | Purpose | Syntax |
-|---|---|
+|:---:|:---:|
 | Heading | `# Text` |
 | Bold | `**Text**` |
 | Italic | `*Text*` |
