@@ -197,3 +197,109 @@ Students share one domain model, one service layer, and one data-access layer, a
 ```
 
 ![Test Image](https://old.dlsu.edu.ph/wp-content/uploads/2018/08/dlsu_logo.gif)
+
+## Git Command Cheatsheet
+
+| Command | Description | Example |
+|:---:|:---:|:---:|
+| `git init` | Initialize a new Git repository | `git init` |
+| `git clone <url>` | Clone an existing repository | `git clone https://github.com/user/repo.git` |
+| `git status` | Show modified, staged, and untracked files | `git status` |
+| `git add <file>` | Stage a specific file | `git add README.md` |
+| `git add .` | Stage all changes in the current directory | `git add .` |
+| `git commit -m "<message>"` | Commit staged changes with a message | `git commit -m "Add login feature"` |
+| `git log` | View commit history | `git log` |
+| `git log --oneline` | View compact commit history | `git log --oneline` |
+| `git diff` | Show unstaged changes | `git diff` |
+| `git diff --staged` | Show staged changes | `git diff --staged` |
+| `git rm <file>` | Remove a file and stage deletion | `git rm oldfile.txt` |
+| `git mv <old> <new>` | Rename or move a file | `git mv test.java Main.java` |
+
+### Branching
+
+| Command | Description | Example |
+|:---:|:---:|:---:|
+| `git branch` | List local branches | `git branch` |
+| `git branch <name>` | Create a new branch | `git branch feature-login` |
+| `git checkout <branch>` | Switch to another branch | `git checkout develop` |
+| `git switch <branch>` | Modern way to switch branches | `git switch develop` |
+| `git switch -c <name>` | Create and switch to a new branch | `git switch -c feature-ui` |
+| `git branch -d <name>` | Delete a branch | `git branch -d feature-ui` |
+| `git merge <branch>` | Merge another branch into current branch | `git merge feature-login` |
+
+### Remote Repository
+
+| Command | Description | Example |
+|:---:|:---:|:---:|
+| `git remote -v` | Show connected remote repositories | `git remote -v` |
+| `git remote add origin <url>` | Add a remote repository | `git remote add origin https://github.com/user/repo.git` |
+| `git push` | Upload commits to remote repository | `git push` |
+| `git push origin <branch>` | Push a specific branch | `git push origin main` |
+| `git push -u origin <branch>` | Push and set upstream branch | `git push -u origin main` |
+| `git pull` | Download and merge remote changes | `git pull` |
+| `git fetch` | Download remote changes without merging | `git fetch` |
+
+### Undo / Recovery
+
+| Command | Description | Example |
+|:---:|:---:|:---:|
+| `git restore <file>` | Discard unstaged changes | `git restore Main.java` |
+| `git restore --staged <file>` | Unstage a file | `git restore --staged Main.java` |
+| `git reset --soft HEAD~1` | Undo last commit but keep changes staged | `git reset --soft HEAD~1` |
+| `git reset --hard HEAD~1` | Remove last commit and discard changes | `git reset --hard HEAD~1` |
+| `git revert <commit>` | Create a new commit that undoes a previous commit | `git revert abc1234` |
+| `git stash` | Temporarily save unfinished changes | `git stash` |
+| `git stash pop` | Restore stashed changes | `git stash pop` |
+
+### Merge Conflict Resolution
+
+| Command | Description | Example |
+|:---:|:---:|:---:|
+| `git merge --abort` | Cancel an ongoing merge | `git merge --abort` |
+| `git status` | Identify conflicted files | `git status` |
+| `git add <resolved-file>` | Mark conflict as resolved | `git add Main.java` |
+| `git commit` | Complete the merge after resolving conflicts | `git commit` |
+
+### Useful Inspection Commands
+
+| Command | Description | Example |
+|:---:|:---:|:---:|
+| `git show <commit>` | Show details of a commit | `git show abc1234` |
+| `git blame <file>` | Show who changed each line | `git blame Main.java` |
+| `git tag` | List tags | `git tag` |
+| `git tag <name>` | Create a tag | `git tag v1.0` |
+
+### Configuration
+
+| Command | Description | Example |
+|:---:|:---:|:---:|
+| `git config --global user.name` | Set Git username | `git config --global user.name "John Doe"` |
+| `git config --global user.email` | Set Git email | `git config --global user.email "john@email.com"` |
+| `git config --list` | View Git configuration | `git config --list` |
+
+### Common Workflow
+
+```bash
+# Clone repository
+git clone <repository-url>
+
+# Create a feature branch
+git switch -c feature-name
+
+# Edit files...
+
+# Check changes
+git status
+
+# Stage and commit
+git add .
+git commit -m "Implement feature"
+
+# Push changes
+git push origin feature-name
+
+# Merge after review
+git switch main
+git merge feature-name
+git push
+
