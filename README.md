@@ -151,7 +151,19 @@ CORE FEATURES (Recommended):
 
 **Reminder:** Since group contribution is assessed through GitHub activity, an incomplete or GitHub-inactive member will be graded **zero on the project**, even if the team submits a working application. Set up your workflow so that everyone's participation is visible from the start - not reconstructed at the deadline.
 
-## Example Picture (if applicable):
+---
+
+## 5. Specialization Tracks 
+- Track A: **Desktop Application (or Game) Development**: JavaFX, Scene Builder, Spring Boot, Spring Data JPA, and PostgreSQL.
+- Track B: **Enterprise Web App Development**: Spring Boot, Thymeleaf, Bootstrap, Spring Data JPA, and PostgreSQL.
+
+Students share one domain model, one service layer, and one data-access layer, and they add only a track-specific presentation module. This keeps the codebase unified, lets students compare approaches, and mirrors how real engineering teams maintain one backend behind multiple client types.
+
+---
+
+## Miscellaneous
+
+- Adding a picture here (if applicable):
 
 ```
 ![Test Image](https://i.imgur.com/RcVBZeD.jpeg)
