@@ -82,9 +82,9 @@ Your `README.txt` (placed at the root of the repo) is your **project proposal**.
 
 7. **Initial Class Ideas**
    Identify your main classes (the "nouns" of your problem domain) and their basic responsibilities, e.g.:
-   - `InventoryItem` — holds product data, stock level
-   - `Order` — aggregates items, computes totals
-   - `User` — authentication and role management
+   - `InventoryItem` - holds product data, stock level
+   - `Order` - aggregates items, computes totals
+   - `User` - authentication and role management
 
 ### Recommended Additions (Strengthen Your Proposal)
 
