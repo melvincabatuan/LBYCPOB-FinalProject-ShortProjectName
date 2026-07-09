@@ -153,7 +153,7 @@ CORE FEATURES (Recommended):
 
 ---
 
-## 5. Specialization Tracks 
+## 6. Specialization Tracks 
 - Track A: **Desktop Application (or Game) Development**: JavaFX, Scene Builder, Spring Boot, Spring Data JPA, and PostgreSQL.
 - Track B: **Enterprise Web App Development**: Spring Boot, Thymeleaf, Bootstrap, Spring Data JPA, and PostgreSQL.
 
@@ -161,9 +161,25 @@ Students share one domain model, one service layer, and one data-access layer, a
 
 ---
 
-## Miscellaneous
+## Markdown (.md) Quick Reference
 
-- Adding a picture here (if applicable):
+| Purpose | Syntax |
+|---|---|
+| Heading | `# Text` |
+| Bold | `**Text**` |
+| Italic | `*Text*` |
+| Code | `` `code` `` |
+| Link | `[text](url)` |
+| Image | `![alt](url)` |
+| Quote | `> text` |
+| List | `- item` |
+| Numbered list | `1. item` |
+| Table | `\| col \| col \|` |
+| Code block | ` ```language ` |
+| Horizontal line | `---` |
+| Checkbox | `- [ ]` |
+
+- Example adding a picture here (when applicable):
 
 ```
 ![Test Image](https://i.imgur.com/RcVBZeD.jpeg)
