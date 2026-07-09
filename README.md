@@ -19,12 +19,12 @@ This means the repository itself is part of your grade: not just the code inside
 ## 2. Step-by-Step: Initiating the Repository
 
 1. **Create the repository**
-   - One member creates a **new GitHub repository** (public or private — private is fine, just add your instructor as a collaborator).
+   - One member creates a **new GitHub repository** (public or private -- private is fine, just add your instructor as a collaborator).
    - Repository name convention: `LBYCPOB-FinalProject-<ShortProjectName>` (adjust prefix to your actual course code).
 
 2. **Add all team members as collaborators**
    - Settings → Collaborators → Add each member by GitHub username.
-   - Every member must have **push access** — no single-owner workflows where one person commits on behalf of others.
+   - Every member must have **push access** - no single-owner workflows where one person commits on behalf of others.
 
 3. **Initialize with the essentials**
    - `README.txt` (proposal - see Section 3 below)
@@ -43,7 +43,7 @@ This means the repository itself is part of your grade: not just the code inside
 
 6. **Use GitHub Issues or a Projects board**
    - Log tasks/features as Issues, assign them to members, and close them via linked commits/PRs.
-   - This creates a visible paper trail of who did what — directly supporting the contribution-based grading policy.
+   - This creates a visible paper trail of who did what - directly supporting the contribution-based grading policy.
 
 7. **Commit early, commit often, individually**
    - Each member should have commits under their **own GitHub account** from the first week onward.
@@ -71,14 +71,14 @@ Your `README.txt` (placed at the root of the repo) is your **project proposal**.
    Who will actually use this system? Be specific (e.g., "small sari-sari store owners," "university lab instructors," not just "people").
 
 5. **Brief Description**
-   A short paragraph summarizing the project's purpose and basic functionality — what it does, end to end.
+   A short paragraph summarizing the project's purpose and basic functionality - what it does, end to end.
 
 6. **Core OOP Concepts**
    List the OOP principles you intend to apply and *where* they'll show up, e.g.:
-   - Encapsulation — private fields with controlled access in `Account`
-   - Inheritance — `Employee` → `Manager`, `Cashier`
-   - Polymorphism — overridden `calculatePay()` per employee type
-   - Abstraction — `PaymentMethod` interface implemented by `CashPayment`, `GCashPayment`
+   - Encapsulation - private fields with controlled access in `Account`
+   - Inheritance - `Employee` → `Manager`, `Cashier`
+   - Polymorphism - overridden `calculatePay()` per employee type
+   - Abstraction - `PaymentMethod` interface implemented by `CashPayment`, `GCashPayment`
 
 7. **Initial Class Ideas**
    Identify your main classes (the "nouns" of your problem domain) and their basic responsibilities, e.g.:
@@ -149,7 +149,7 @@ CORE FEATURES (Recommended):
 - [ ] Branching strategy agreed upon (`main` + feature branches)
 - [ ] Each member has made at least one initial commit under their own account
 
-**Reminder:** Since group contribution is assessed through GitHub activity, an incomplete or GitHub-inactive member will be graded **zero on the project**, even if the team submits a working application. Set up your workflow so that everyone's participation is visible from the start — not reconstructed at the deadline.
+**Reminder:** Since group contribution is assessed through GitHub activity, an incomplete or GitHub-inactive member will be graded **zero on the project**, even if the team submits a working application. Set up your workflow so that everyone's participation is visible from the start - not reconstructed at the deadline.
 
 ## Example Picture:
 
