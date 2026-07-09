@@ -153,4 +153,4 @@ CORE FEATURES (Recommended):
 
 ## Example Picture:
 
-![Test Philippine Flag](images/flag.png)
+![Test Image](https://raw.githubusercontent.com/melvincabatuan/LBYCPOB-FinalProject-ShortProjectName/master/images/flag.png)
