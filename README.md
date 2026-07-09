@@ -153,11 +153,22 @@ CORE FEATURES (Recommended):
 
 ---
 
-## 6. Specialization Tracks 
+## 6. Project Specialization Tracks 
 - Track A: **Desktop Application (or Game) Development**: JavaFX, Scene Builder, Spring Boot, Spring Data JPA, and PostgreSQL.
 - Track B: **Enterprise Web App Development**: Spring Boot, Thymeleaf, Bootstrap, Spring Data JPA, and PostgreSQL.
 
 Students share one domain model, one service layer, and one data-access layer, and they add only a track-specific presentation module. This keeps the codebase unified, lets students compare approaches, and mirrors how real engineering teams maintain one backend behind multiple client types.
+
+| Layer | Track A (Desktop) | Track B (Web) | Shared Concept |
+|-------|-------------------|---------------|----------------|
+| **Presentation** | JavaFX + Scene Builder FXML | Thymeleaf + Bootstrap | MVC pattern |
+| **Backend / Controller** | JavaFX Controller classes | Spring MVC @Controller | Layered architecture |
+| **Business Logic** | Spring Boot Services | Spring Boot Services | OOP, SOLID, Dependency Injection |
+| **Data Access** | Spring Data JPA | Spring Data JPA | Repositories, ORM |
+| **Database** | PostgreSQL | PostgreSQL | Data persistence |
+| **Configuration** | application.properties | application.properties | Spring Boot configuration |
+| **Build Tool** | Maven or Gradle | Maven or Gradle | Dependency and project management |
+| **Testing** | JUnit 5 + Mockito | JUnit 5 + Mockito | Unit testing and mocking |
 
 ---
 
