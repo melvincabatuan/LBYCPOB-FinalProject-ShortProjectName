@@ -190,7 +190,7 @@ Students share one domain model, one service layer, and one data-access layer, a
 | Horizontal line | `---` |
 | Checkbox | `- [ ]` |
 
-- Example adding a picture here (when applicable):
+- Example adding a picture (when applicable):
 
 ```
 ![Test Image](https://i.imgur.com/RcVBZeD.jpeg)
