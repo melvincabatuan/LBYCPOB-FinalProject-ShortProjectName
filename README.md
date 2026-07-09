@@ -153,4 +153,8 @@ CORE FEATURES (Recommended):
 
 ## Example Picture:
 
+```
 ![Test Image](https://i.imgur.com/RcVBZeD.jpeg)
+```
+
+![Test Image](https://old.dlsu.edu.ph/wp-content/uploads/2018/08/dlsu_logo.gif)
