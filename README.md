@@ -12,7 +12,7 @@ Per the Final Project Policy:
 - Groups are **at most 3 members** (solo is allowed).
 - **If working in a group, contributions are evaluated based on GitHub activity.** Members with no visible contribution (commits, PRs, issues, etc.) will receive a **project grade of zero**, regardless of the team's overall output.
 
-This means the repository itself is part of your grade — not just the code inside it.
+This means the repository itself is part of your grade: not just the code inside it.
 
 ---
 
@@ -27,7 +27,7 @@ This means the repository itself is part of your grade — not just the code ins
    - Every member must have **push access** — no single-owner workflows where one person commits on behalf of others.
 
 3. **Initialize with the essentials**
-   - `README.txt` (proposal — see Section 3 below)
+   - `README.txt` (proposal - see Section 3 below)
    - `.gitignore` (appropriate for your language/framework, e.g., Java/Maven, Python, Node)
    - `LICENSE` (optional, but good practice for "original work" framing)
 
@@ -51,7 +51,7 @@ This means the repository itself is part of your grade — not just the code ins
 
 ---
 
-## 3. `README.txt` — Required Proposal Elements
+## 3. `README.txt`: Required Proposal Elements
 
 Your `README.txt` (placed at the root of the repo) is your **project proposal**. It must contain the following, in order:
 
